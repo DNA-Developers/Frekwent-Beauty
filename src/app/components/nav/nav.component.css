@@ -6,6 +6,7 @@
 .navbar {
     background-color: white;
     text-decoration: none;
+    width: 100%;
 }
 .navbar .navbar-brand {
     text-align: center;
@@ -39,4 +40,22 @@
 }
 button:focus {
     outline: none;
+}
+@media(max-width: 768px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    button{
+        margin-right: 6rem !important;
+        
+    }
+    span .navbar-toggler-icon{
+        font-size: .4rem;
+    }
+    .logo {
+       
+        height: 2rem;
+    }
 }
