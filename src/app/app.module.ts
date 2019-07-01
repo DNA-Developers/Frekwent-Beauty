@@ -10,6 +10,7 @@ import { StoreComponent } from './components/store/store.component';
 import { MaterialModule } from './material.module';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NavComponent } from './components/nav/nav.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { NavComponent } from './components/nav/nav.component';
     StoreComponent,
     CarouselComponent,
     NavComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

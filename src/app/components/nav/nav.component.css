@@ -37,3 +37,6 @@
 .navbar-nav a:hover {
     color: purple;
 }
+button:focus {
+    outline: none;
+}

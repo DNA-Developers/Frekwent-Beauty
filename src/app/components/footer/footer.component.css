@@ -1,0 +1,23 @@
+.footer{
+    height: 35rem;
+    color: #1a1aff;
+}
+h4 {
+  margin-top:2rem;
+}
+h6 {
+  text-align: center;  
+}
+.but {
+    background: #1a1aff;
+    padding: 2px 25px;
+    font-family: 'Footlight MT Light'; 
+    font-size: 1.2rem;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  color: white;
+  background: purple;
+}
