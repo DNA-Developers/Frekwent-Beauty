@@ -1,0 +1,58 @@
+*{
+  font-family: 'Footlight MT Light'; 
+}
+.footer{
+    height: 30rem;
+    color: #1a1aff;
+}
+h4 {
+  margin-top:2rem;
+}
+h6 {
+  text-align: center;  
+}
+.but {
+    background: #1a1aff;
+    padding: 2px 25px;
+    font-family: 'Footlight MT Light'; 
+    font-size: 1.2rem;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  color: white;
+  background: purple;
+}
+input {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 414px) {
+  .container{
+    width:93%;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p{
+    font-size: .9rem;
+    text-align: left;
+  }
+  .form-group {
+    width: 70%;
+  }
+  .but {
+    padding: 1px 15px;
+    font-size: 1rem;
+  }
+  h6{
+    margin-top: 1rem;
+    font-size:.8rem;
+  }
+} 
+@media(min-width: 768px) {
+  p {
+    font-size:1rem;
+    text-align: left;
+  }
+}

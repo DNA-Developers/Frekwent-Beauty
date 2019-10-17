@@ -1,0 +1,61 @@
+
+.logo {
+    height: 5rem;
+}
+
+.navbar {
+    background-color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.navbar .navbar-brand {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #1a1aff;
+}
+.navbar-brand {
+    padding-left: 220px;
+}
+.fa-bars {
+    color: #1a1aff; 
+}
+
+.navbar-nav .nav-item {
+   font-size: 25px;
+   text-transform: uppercase;
+    font-family: 'Footlight MT Light'; 
+}
+.nav-item .nav-link {
+    color: #1a1aff;
+}
+.nav-item .nav-link a:link {
+    color:ivory;
+}
+.navbar-nav a:hover {
+    color: purple;
+}
+button:focus {
+    outline: none;
+}
+@media(max-width: 768px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    button{
+        margin-right: 6rem !important;
+        
+    }
+    span .navbar-toggler-icon{
+        font-size: .4rem;
+    }
+    .logo {
+       
+        height: 2rem;
+    }
+}
