@@ -2,7 +2,7 @@
     font-family: 'Footlight MT Light'; 
     padding: 0;
     margin:0;
-    box-sizing: border-box;
+
 }
 .main {
     height: 90vh;
@@ -13,10 +13,9 @@
     flex-direction: column;
 }
 mat-card {
-    width: 25%;
-    height: 70%;
+    width: 20%;
+    height: 60%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background: #ECBA58;
@@ -41,8 +40,78 @@ input {
     padding-left: 6px;
     background:  #1a1aff
 }
+h1{
+    margin-top: 10%;
+}
 textarea {
     padding-left: 6px;
+    width: 100%;
+    height: 50%;
+    resize: none;
     /* background:  #1a1aff; */
      /* color: white */
 }
+@media(max-width: 600px) {
+    main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+    mat-card {
+        width: 85%;
+        height: 80%;
+    }
+    .but {
+        padding: 2px 15px;
+        margin-left: 23%;
+    }
+    textarea {
+        height: 40%;
+    }
+}
+@media(min-width:768px) and (max-width:768px) {
+    mat-card {
+        width: 50%;
+        height:50vh;
+    }
+}
+    @media(min-width: 1024px) and (max-width:1024px) {
+        mat-card {
+            width: 45%;
+            height:45vh;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+        .form-group {
+            font-size: 1.5rem;
+        }
+        .but {
+            font-size: 1.5rem;
+            padding: 3px 25px;
+        }
+        ::placeholder {
+            font-size: 1rem;;
+        }
+    }
+    @media(min-width: 1366px) and (max-width: 1366px){
+        mat-card {
+            height: 75%;
+            width: 25%;
+        }
+        .but {
+            margin-left: 21%;
+        }
+    }
+    @media(min-width: 1440px) and (max-width: 1440px){
+        mat-card {
+            height: 70%;
+            width: 25%;
+        }
+        .but {
+            margin-left: 21%;
+        }
+    }
+

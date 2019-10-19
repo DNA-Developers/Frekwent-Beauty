@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 *{
   font-family: 'Footlight MT Light'; 
 }
-=======
->>>>>>> c3375a793994de8353b21ede771bcafc4fded4fa
 .footer{
     height: 30rem;
     color: #1a1aff;
@@ -30,9 +27,11 @@ button:hover {
 input {
   margin-bottom: 1rem;
 }
-@media screen and (max-width: 414px) {
+@media (max-width: 600px) {
   .container{
-    width:93%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
   }
   h4 {
     font-size: 1.4rem;
@@ -47,9 +46,11 @@ input {
   .but {
     padding: 1px 15px;
     font-size: 1rem;
+    margin-top:0 !important;
   }
+ 
   h6{
-    margin-top: 1rem;
+    margin-top: 19%;
     font-size:.8rem;
   }
 } 
