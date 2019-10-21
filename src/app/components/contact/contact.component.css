@@ -1,5 +1,5 @@
 *{
-    font-family: 'Footlight MT Light'; 
+    font-family: 'Footlight MT Light';
     padding: 0;
     margin:0;
 
@@ -106,13 +106,13 @@ textarea {
             margin-left: 21%;
         }
     }
-    @media(min-width: 1440px) and (max-width: 1440px){
+    @media(min-width: 1440px) and (max-width: 1500px){
         mat-card {
             height: 70%;
             width: 25%;
         }
         .but {
-            margin-left: 21%;
+            margin-left: 23%;
         }
     }
 
