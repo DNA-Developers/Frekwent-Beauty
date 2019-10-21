@@ -22,7 +22,7 @@ mat-card {
 }
 
 .form-group{
-    width: 60%;
+    width: 70%;
 }
 .but{
   background:  #1a1aff;
@@ -38,7 +38,8 @@ mat-card {
 }
 input {
     padding-left: 6px;
-    background:  #1a1aff
+    background:  #1a1aff;
+    width:90%
 }
 h1{
     margin-top: 10%;
