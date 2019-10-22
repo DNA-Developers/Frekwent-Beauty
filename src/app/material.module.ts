@@ -6,6 +6,7 @@ import {MatButtonModule, MatCheckboxModule, MatAutocompleteModule,
     MatIconModule, MatSnackBarModule, MatExpansionModule, 
     MatButtonToggleModule, MatProgressBarModule, MatSliderModule,
     MatMenuModule, MatPaginatorModule, MatTableModule} from '@angular/material';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   imports: [MatButtonModule, MatCheckboxModule, MatDatepickerModule, 
@@ -23,5 +24,6 @@ import {MatButtonModule, MatCheckboxModule, MatAutocompleteModule,
      MatIconModule, MatSnackBarModule, MatExpansionModule, 
      MatButtonToggleModule, MatProgressBarModule, MatSliderModule,
     MatMenuModule, MatPaginatorModule, MatTableModule],
+  declarations: [ContactComponent],
 })
 export class MaterialModule { }
